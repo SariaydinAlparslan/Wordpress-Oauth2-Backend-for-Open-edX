@@ -18,6 +18,7 @@ from social_core.backends.oauth import BaseOAuth2
 from django.contrib.auth import get_user_model
 from wp_oauth_backend.wp_oauth import WPOpenEdxOAuth2
 
+
 User = get_user_model()
 logger = getLogger(__name__)
 
