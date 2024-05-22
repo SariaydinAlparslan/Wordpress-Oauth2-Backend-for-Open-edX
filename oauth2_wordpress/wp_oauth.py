@@ -25,7 +25,7 @@ logger = getLogger(__name__)
 VERBOSE_LOGGING = True
 
 
-class WPOpenEdxOAuth2(BaseOAuth2):
+class StepwiseMathWPOAuth2(WPOpenEdxOAuth2):
     """
     WP OAuth authentication backend customized for Open edX.
     see https://python-social-auth.readthedocs.io/en/latest/backends/implementation.html
